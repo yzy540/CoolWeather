@@ -7,6 +7,7 @@ public class City extends LitePalSupport {
     String cityName;
     int cityCode;
     int provinceCode;
+    int provinceId;
 
     public void setId(int id) {
         this.id = id;
@@ -38,5 +39,8 @@ public class City extends LitePalSupport {
 
     public int getProvinceCode() {
         return provinceCode;
+    }
+
+    public void setProvinceId(int provinceId) {this.provinceId = provinceId;
     }
 }
